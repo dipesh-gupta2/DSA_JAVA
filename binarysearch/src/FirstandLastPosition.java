@@ -1,6 +1,6 @@
 public class FirstandLastPosition {
     public static void main(String[] args) {
-        int[] arr=
+//        int[] arr=
     }
     static int[] searchRange(int[] nums, int target) {
         int[] ans={-1,-1};
