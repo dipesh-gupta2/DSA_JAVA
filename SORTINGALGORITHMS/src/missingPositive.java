@@ -10,7 +10,7 @@ public class missingPositive {
                 if(nums[i]<1){
                     break;
                 } else if (nums[i]>nums.length) {
-                    break;
+                     break;
 
                 } else{
                     int temp = nums[nums[i]-1];
@@ -22,6 +22,9 @@ public class missingPositive {
         for(int i=0;i<=nums.length-1;i++){
             if(nums[i]!=i+1){
                 return i+1;
+            }
+            else if( nums.length==1 && nums[i]==1){
+                return nums[i]+1;
             }
         }
         return nums.length;
